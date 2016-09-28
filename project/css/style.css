@@ -1,0 +1,63 @@
+* {
+  transition: 0.5s;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #202e39;
+  font-size: 1.2em;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: cursive;
+}
+h1:first-of-type {
+  margin-top:0;
+}
+header, section, footer {
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  color: #ffffff;
+  min-height: 200px;
+  width: 960px;
+}
+header img.right {
+  float: right;
+  margin-top: -150px;
+}
+section {
+  background: #edeee9;
+  min-height: 300px;
+}
+section .container {
+  width:960px;
+  margin:auto;
+}
+section h3 {
+  width:960px;
+  margin:auto;
+  font-family:monospace;
+}
+footer {
+  color: #ffffff;
+  text-align: center;
+}
+
+h3 a {
+  padding: 10px;
+  background: #025d8c;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+img {
+  width: 300px;
+  border-radius: 25% 50%;
+}
+.tofinologo {
+  width: auto;
+  height: 80px;
+}
